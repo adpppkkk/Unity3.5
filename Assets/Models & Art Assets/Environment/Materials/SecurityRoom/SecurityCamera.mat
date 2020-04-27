@@ -75,7 +75,7 @@ Material:
     - _OutlineFront: 1
     - _Parallax: 0.02
     - _SpecularEnable: 1
-    - _SpecularPower: 0.143
+    - _SpecularPower: 0.04
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1

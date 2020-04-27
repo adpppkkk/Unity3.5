@@ -64,6 +64,7 @@ public class ACS17AnimationManager : MonoBehaviour
                 break;
 
             case EnemyNav.eMode.move:
+            case EnemyNav.eMode.chase:
                 CrossFade("ACS_Walk");
                 break;
         }

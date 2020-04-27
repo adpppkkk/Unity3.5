@@ -25,7 +25,6 @@ GameObject:
   - component: {fileID: 33876350766757026}
   - component: {fileID: 114574511588353480}
   - component: {fileID: 64306489724943580}
-  - component: {fileID: 114511179601693864}
   m_Layer: 8
   m_Name: WallBlock
   m_TagString: Untagged
@@ -115,17 +114,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _entityType: 0
---- !u!114 &114511179601693864
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1585439679203754}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 994b017000c5c43af8041d8dda6fad1a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114574511588353480
 MonoBehaviour:
   m_ObjectHideFlags: 1

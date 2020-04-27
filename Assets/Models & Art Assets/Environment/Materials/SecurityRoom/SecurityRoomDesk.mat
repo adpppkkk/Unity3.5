@@ -43,7 +43,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 97e0119a3b30c478597e47cfd8e91d45, type: 3}
+        m_Texture: {fileID: 2800000, guid: 54c9c880ba0554d5a803e0f818b572de, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -94,7 +94,7 @@ Material:
     - _RimOffset: 0
     - _RimPower: 0
     - _SpecularEnable: 1
-    - _SpecularPower: 0.27
+    - _SpecularPower: 0.05
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
@@ -102,7 +102,7 @@ Material:
     m_Colors:
     - _ASEOutlineColor: {r: 0, g: 1, b: 0, a: 0}
     - _BorderColor: {r: 0, g: 1, b: 0, a: 1}
-    - _Color: {r: 0.78676474, g: 0.78676474, b: 0.78676474, a: 1}
+    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _RimColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.2647059, g: 0.2647059, b: 0.2647059, a: 1}

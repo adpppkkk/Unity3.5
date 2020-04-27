@@ -6,7 +6,7 @@ using UnityEngine.AI;
 [RequireComponent(typeof(NavMeshAgent))]
 public class EnemyNav : MonoBehaviour
 {
-    public enum eMode { idle, wait, preMoveRot, move, postMoveRot};// chase, stopChase };
+    public enum eMode { idle, wait, preMoveRot, move, postMoveRot, chase, stopChase };
 
     [Header("Inscribed")]
     public bool             drawGizmos;
@@ -149,6 +149,20 @@ public class EnemyNav : MonoBehaviour
                 MoveToNextWaypoint();
                 break;
 
+            case eMode.chase:
+                nav.SetDestination(InteractingPlayer.S.transform.position);
+                nav.isStopped = false;
+                nav.updatePosition = true;
+                // Eventually, we'll check to see if the player is caught
+
+                break;
+
+            case eMode.stopChase:            
+                nav.SetDestination(waypoints[wpNum].pos);
+                nav.isStopped = false;
+                nav.updatePosition = true;
+                mode = eMode.move;
+                break;
         }
 
     }

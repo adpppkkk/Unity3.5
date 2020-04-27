@@ -35,7 +35,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4012831245802780}
-  - component: {fileID: 114461894637756552}
   m_Layer: 0
   m_Name: Company Logo Hologram Holder
   m_TagString: Untagged
@@ -97,14 +96,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1413417292537754}
-  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.000033551827}
-  m_LocalPosition: {x: 10.5, y: 1, z: -16}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
+  m_LocalPosition: {x: 8.5, y: 1, z: -16}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4049769434513270}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -179.996, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!4 &4049769434513270
 Transform:
   m_ObjectHideFlags: 1
@@ -112,7 +111,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1108215590706062}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.2}
+  m_LocalPosition: {x: 0, y: 0, z: 0.25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4230779419225186}
@@ -177,22 +176,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114461894637756552
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1413417292537754}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 802eca824ca134e3282a1e6a8cf3e0e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  colorToSwitchTo: {r: 1, g: 0, b: 0, a: 0.5}
-  spriteToSwitchTo: {fileID: 21300000, guid: 0ca4c552032f94a4e806df20f21683ce, type: 3}
-  spriteRenderers: []
-  originalColors: []
-  originalSprites: []
 --- !u!212 &212026162855886488
 SpriteRenderer:
   m_ObjectHideFlags: 1
